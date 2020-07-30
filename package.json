@@ -1,0 +1,17 @@
+{
+  "name": "schema_checker",
+  "version": "1.0.0",
+  "description": "AJV testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "author": "CaptainLazarus",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.12.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
